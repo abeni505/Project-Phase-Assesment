@@ -1,40 +1,60 @@
 "use client";
 import React, { useState } from "react";
-import Blog from "@/components/Blog"; // Adjust the path if necessary
+import Blog from "@/components/Blog";
 import "tailwindcss/tailwind.css";
 
 const BlogsPage: React.FC = () => {
   // Sample data
   const blogs = [
     {
-      author: "Yididiya Kebede",
-      date: "Apr 4, 2022",
-      title:
-        "The essential guide to Competitive Programming Tab System On React: 3 ways to do it.",
+      author: "NO Author",
+      date: "2023-08-18T21:50:21.755Z",
+      title: "Mastering the Art of Code Refactoring",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
-      image: "/path/to/image.jpg",
-      tags: ["UI/UX", "Development"],
+        "Code refactoring is an essential practice in software development that often separates novice programmers from experienced engineers. Refactoring isn't just about tidying up your code; it's about improving its structure, readability, and maintainability. Let's delve into the key aspects of mastering the art of code refactoring.",
+      image:
+        "https://res.cloudinary.com/djtkzulun/image/upload/v1692395420/A2sv/mnjgq5sntmkerd5hjjba.jpg",
+      tags: ["Programming", "Code"],
     },
     {
-      author: "Yididiya Kebede",
-      date: "Apr 4, 2022",
-      title:
-        "The essential guide to Competitive Programming Tab System On React: 3 ways to do it.",
+      author: "NO Author",
+      date: "2023-08-18T21:50:21.755Z",
+      title: "Mastering the Art of Code Refactoring 2",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
-      image: "/path/to/image.jpg",
-      tags: ["UI/UX", "Development"],
+        "Code refactoring is an essential practice in software development that often separates novice programmers from experienced engineers. Refactoring isn't just about tidying up your code; it's about improving its structure, readability, and maintainability. Let's delve into the key aspects of mastering the art of code refactoring.",
+      image:
+        "https://res.cloudinary.com/djtkzulun/image/upload/v1692395420/A2sv/mnjgq5sntmkerd5hjjba.jpg",
+      tags: ["Programming", "Code"],
     },
     {
-      author: "Yididiya Kebede",
-      date: "Apr 4, 2022",
-      title:
-        "The essential guide to Competitive Programming Tab System On React: 3 ways to do it.",
+      author: "NO Author",
+      date: "2023-08-18T21:50:21.755Z",
+      title: "Mastering the Art of Code Refactoring 2",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
-      image: "/path/to/image.jpg",
-      tags: ["UI/UX", "Development"],
+        "Code refactoring is an essential practice in software development that often separates novice programmers from experienced engineers. Refactoring isn't just about tidying up your code; it's about improving its structure, readability, and maintainability. Let's delve into the key aspects of mastering the art of code refactoring.",
+      image:
+        "https://res.cloudinary.com/djtkzulun/image/upload/v1692395420/A2sv/mnjgq5sntmkerd5hjjba.jpg",
+      tags: ["Programming", "Code"],
+    },
+    {
+      author: "NO Author",
+      date: "2023-08-18T21:50:21.755Z",
+      title: "Mastering the Art of Code Refactoring 2",
+      description:
+        "Code refactoring is an essential practice in software development that often separates novice programmers from experienced engineers. Refactoring isn't just about tidying up your code; it's about improving its structure, readability, and maintainability. Let's delve into the key aspects of mastering the art of code refactoring.",
+      image:
+        "https://res.cloudinary.com/djtkzulun/image/upload/v1692395420/A2sv/mnjgq5sntmkerd5hjjba.jpg",
+      tags: ["Programming", "Code"],
+    },
+    {
+      author: "NO Author",
+      date: "2023-08-18T21:50:21.755Z",
+      title: "Mastering the Art of Code Refactoring",
+      description:
+        "Code refactoring is an essential practice in software development that often separates novice programmers from experienced engineers. Refactoring isn't just about tidying up your code; it's about improving its structure, readability, and maintainability. Let's delve into the key aspects of mastering the art of code refactoring.",
+      image:
+        "https://res.cloudinary.com/djtkzulun/image/upload/v1692395420/A2sv/mnjgq5sntmkerd5hjjba.jpg",
+      tags: ["Programming", "Code"],
     },
     // Add more blog objects here
   ];

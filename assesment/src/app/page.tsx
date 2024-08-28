@@ -5,11 +5,12 @@ import Dashboard from "./dashboard";
 import Layout from "./layout";
 import BlogContent from "./BlogPage";
 import LoginPage from "./login";
+import BlogsPage from "./BlogList/page";
 
 export default function Home() {
   return (
     <>
-      {/* <BlogsPage /> */}
+      {/* <BlogsPage/> */}
       {/* <Blog /> */}
       {/* <BlogContent /> */}
       <LoginPage />

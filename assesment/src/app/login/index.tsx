@@ -6,17 +6,19 @@ const LoginPage: FC = () => {
     <div className="flex min-h-screen">
       {/* Left side (Welcome message and image) */}
       <div className="w-full lg:w-1/2 bg-white flex flex-col justify-center items-center p-8">
-        <div className="max-w-md text-center">
+        <div className="max-w-md text-center flex ">
           <Image
-            src="/path-to-welcome-image.png"
+            src="/Images/person.png"
             alt="Welcome Back"
             width={300}
             height={300}
           />
-          <h1 className="text-3xl font-bold mt-8">Welcome Back</h1>
-          <p className="text-gray-500 mt-4">
-            Login to receive blogs and learn more about A2SV
-          </p>
+          <div className="w-[100%]">
+            <h1 className="text-3xl font-bold mt-8 text-left">Welcome Back</h1>
+            <p className="text-gray-500 mt-4 text-left">
+              Login to receive blogs and learn more about A2SV
+            </p>
+          </div>
         </div>
       </div>
 

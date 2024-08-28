@@ -1,3 +1,21 @@
+# Next.js Project
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Login Page
+
+![Login Page](public/Images/screenshoots/Login%20page.png)
+
+## Blog List Page
+
+![Blog List Page](public/Images/screenshoots/Blog%20List%20.png)
+![Blog List Page](public/Images/screenshoots/blog%20List%202.png)
+
+# Blog component
+
+![Blog List Page](public/Images/screenshoots/Blog%20page.png)
+![Blog List Page](public/Images/screenshoots/blog%20page2.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
